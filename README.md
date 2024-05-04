@@ -28,7 +28,7 @@ There is room for customizing this to reflect your custom install, but you'll ha
 
 ## General Usage
 ```bash
-python3 withdraw-aioz.py`
+python3 withdraw-aioz.py
 ```
 
 ### Retries
