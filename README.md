@@ -32,7 +32,7 @@ python3 withdraw-aioz.py
 ```
 
 ### Retries
-This script will retry if you are rate limited.  Rate limiting happens (as far as I can tell) when you've withdrawn to a certain wallet once in the past hour (so 1 withdrawal per wallet per hour).  
+This script will retry a withdrawal if you are rate limited.  Rate limiting happens (as far as I can tell) when you've withdrawn to a certain wallet once in the past hour (so 1 withdrawal per wallet per hour).  
 
 ## Automating Calling This Script
 If using a Unix based machine with a cron system:
@@ -44,3 +44,8 @@ and then insert:
 ```
 0 0 * * * python3 /absolute/path/to/withdraw-aioz.py
 ```
+
+This will run once a day at midnight.
+
+## Logging
+There is logging that is outputting the balance every time this checks the balance.
