@@ -1,4 +1,4 @@
-# AIOZ Node Auto-Withdraws
+# AIOZ Node Auto-Withdraw
 If running the [AIOZ Node CLI here](https://github.com/AIOZNetwork/aioz-dcdn-cli-node), then you can automate the process of withdrawing rewards.
 
 This takes into account that the minimum withdrawal is 1, but you can set it to whatever, just know the amount needs to be in attoaioz (1 aioz = 10^18attoaioz).
